@@ -5,7 +5,7 @@ ARG GID=1001
 
 ARG INDYSDK_PATH=/home/indy/indy-sdk
 ARG INDYSDK_REPO=https://github.com/hyperledger/indy-sdk.git
-ARG INDYSDK_REVISION=v1.15.0
+ARG INDYSDK_REVISION=master
 
 ENV LC_ALL="C.UTF-8"
 ENV LANG="C.UTF-8"
